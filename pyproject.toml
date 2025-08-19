@@ -1,0 +1,20 @@
+[project]
+name = "dbx-agentic-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "databricks-agents>=1.3.0",
+    "databricks-connect>=16.1.1,<16.4",
+    "databricks-langchain>=0.7.0",
+    "databricks-sdk>=0.63.0",
+    "ipykernel>=6.30.1",
+    "langgraph>=0.6.5",
+    "mlflow>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
